@@ -1,0 +1,101 @@
+/* .box {
+    padding: 10px;
+    border: 3px solid red;
+    margin: 20px;
+} */
+
+.box {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    padding: 5px 10px 15px 20px;
+
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: red;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+
+    margin: 10px 20px 30px 40px;
+
+    box-sizing: border-box;
+    height: 300px;
+    width: 48%;
+    display: inline-block;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* #first-box {
+    height: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+} */
+
+#first-box {
+    display: none;
+    /* visibility: hidden; */
+}
+
+div:last-of-type:hover {
+    border-color: green;
+}
+
+div{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black; 
+}
+div .test-class{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: chartreuse;
+
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    box-shadow: 2px 2px 4px 2px #999;
+}
+
+.list-practice .list-practice__ul{
+    list-style: none;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.list-practice .list-practice__ul__li{
+    font-weight: bold;
+}
+
+.list-practice .list-practice__ul__li:focus,
+.list-practice .list-practice__ul__li:hover{
+    font-weight: bold;
+    font-size: 24px;
+    color: coral;
+}
